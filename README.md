@@ -24,7 +24,6 @@ The analysis revealed a 26.54% churn rate, resulting in approximately $7.7M in l
 ## Feature Importance
 ![Feature Importance](image-4.png)
 
-![Feature Importance](image-5.png)
 
 ## Power BI Dashboard
 ![Dashboard](images/dashboard.png)
