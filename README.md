@@ -28,7 +28,7 @@ The analysis revealed a 26.54% churn rate, resulting in approximately $7.7M in l
 ## Power BI Dashboard
 ![Dashboard](images/dashboard.png)
 
-Business Problem
+## Business Problem
 
 A SaaS company is experiencing increasing customer churn but lacks clarity on:
 
@@ -42,8 +42,9 @@ How to proactively reduce customer attrition
 
 Churn directly affects revenue, profitability, and customer lifetime value. Leadership requires both descriptive and predictive insights to support retention strategies.
 
-Methodology
-1️⃣ SQL — Descriptive & Financial Analysis
+## Methodology
+
+## 1️⃣ SQL — Descriptive & Financial Analysis
 
 Calculated overall churn rate (26.54%)
 
@@ -63,7 +64,7 @@ $139K in monthly revenue lost
 
 $7.75M in lifetime value lost
 
-2️⃣ Python — Predictive Modeling
+## 2️⃣ Python — Predictive Modeling
 Data Preparation
 
 Cleaned and standardized column names
@@ -94,7 +95,7 @@ Churn Recall (Adjusted 0.35 threshold): 61%
 
 Lowering the threshold increased detection of at-risk customers while accepting higher false positives — a strategic trade-off in retention analytics.
 
-3️⃣ Feature Importance Insights
+## 3️⃣ Feature Importance Insights
 Top Drivers Increasing Churn Risk:
 
 Higher Monthly Charges
@@ -118,10 +119,9 @@ Customers with Dependents
 The model findings aligned with SQL insights, strengthening the credibility of the analysis.
 
 
-Skills Demonstrated
-SQL
+## Skills Demonstrated
 
-Aggregations
+SQL Aggregations
 
 Window Functions
 
@@ -149,8 +149,9 @@ Contract & Revenue Segmentation
 
 Executive-Level Reporting
 
-Results & Business Recommendations
-📊 Key Results
+## Results & Business Recommendations
+
+## 📊 Key Results
 
 1 in 4 customers churn (26.54%)
 
@@ -162,7 +163,7 @@ Longer tenure significantly reduces churn
 
 Predictive model identifies 61% of churners proactively
 
-💡 Business Recommendations
+## 💡 Business Recommendations
 
 Promote long-term contracts through discounts or loyalty programs.
 
@@ -176,17 +177,6 @@ Target fiber optic customers with retention campaigns.
 
 By applying predictive risk scoring, the company can proactively intervene and potentially recover significant lifetime value.
 
-Next Steps
-
-Deploy model as a Flask API for real-time churn scoring
-
-Implement automated retention alerts
-
-Integrate with CRM system
-
-Conduct A/B testing on retention offers
-
-Explore advanced models (Random Forest, XGBoost)
 
 # 📈 Business Impact
 
